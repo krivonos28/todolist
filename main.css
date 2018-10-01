@@ -1,0 +1,73 @@
+
+.todolistwraper{
+    margin: 0 auto;
+    width: 500px;
+    min-height: 500px;
+    background-color: #ccc5a0;
+    border: dotted 1px green;
+    border-radius: 15px;
+}
+.nametodolist{
+    margin-top: 15px; 
+    padding: 10px;
+    background-color: #ccc5a0;
+}
+.tasks{
+    padding: 0px 10px 10px 10px;
+    background-color: #ccc5a0;
+    color: blueviolet;
+}
+.inputtaskdiv{
+    background-color: #ccc5a0;
+    display: flex;  
+    justify-content: space-between; 
+}
+#inputtask{
+    margin-top:1px;
+    background-color: #dddbcf;
+    height: 20px;
+    width: 400px;  
+    border: solid 1px #dd841e;
+    display: flex;
+    border-radius: 2px;   
+    box-shadow: #dd841e 10px 5px 10px 0px;
+}
+#createtask{
+    margin-top:1px;
+    height: 24px;
+    /* background-color: #ccc5a0; 
+    border: solid 1px #dd841e;  */
+    display: flex;
+    border-radius: 2px;  
+}
+#createtask:hover{
+    background-color: aqua;
+    border: solid 1px #dd841e;
+
+}
+#createtask:active{
+    background-color: aqua;
+    border: solid 1px #22a507;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+button:active{
+    box-shadow: #4fcf14ce 2px 2px 2px 0px;
+}
+#createtask:focus{
+    outline: none;
+}
+#inputtask:focus{
+    outline-color: gold;
+    box-shadow: #4fcf14ce 0px 0px 0px 0px;
+}
+.flexconteinerheadertask{
+    display: flex;
+}
+
+
+.taskclass{
+    display: flex;
+    justify-content: space-between;
+}
